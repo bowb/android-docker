@@ -3,3 +3,5 @@
 This contains a build script that shows an example of how to test a native c++ application on an android aosp base system image.
 
 sudo ./build.sh
+
+docker run --rm -it android:aarch64 /bin/sh
